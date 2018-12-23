@@ -34,7 +34,7 @@ class App extends Component {
 
   //Remove contact. Once you click on the button,
   // the method will return a new array that does
-  // not include c.id
+  // not include contact.id
   removeContact = (contact) => {
     this.setState((currentState) => ({
       contacts: currentState.contacts.filter((c) => {
