@@ -22,6 +22,12 @@ const defaultData = {
       name: 'Tyler McGinnis',
       handle: '@tylermcginnis',
       avatarURL: config.origin + '/tyler.jpg'
+    },
+    {
+      id: 'pancho',
+      name: 'Panayot Angarev',
+      handle: '@pancho',
+      avatarURL: config.origin + '/pancho.jpg'
     }
   ]
 }
