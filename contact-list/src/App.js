@@ -6,19 +6,25 @@ const contacts = [
     "id": "karen",
     "name": "Karen Isgrigg",
     "handle": "karen_isgrigg",
-    "avatarURL": "http://localhost:5001/karen.jpg"
+    "avatarURL": "images/michael.jpg"
   },
   {
     "id": "richard",
     "name": "Richard Kalehoff",
     "handle": "richardkalehoff",
-    "avatarURL": "http://localhost:5001/richard.jpg"
+    "avatarURL": "images/ryan.jpg"
   },
   {
     "id": "tyler",
     "name": "Tyler McGinnis",
     "handle": "tylermcginnis",
-    "avatarURL": "http://localhost:5001/tyler.jpg"
+    "avatarURL": "images/tyler.jpg"
+  },
+  {
+    "id": "pancho",
+    "name": "Panayot Angarev",
+    "handle": "pangarev",
+    "avatarURL": "images/IMG_3269.jpg"
   }
 ];
 
