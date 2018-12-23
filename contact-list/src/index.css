@@ -52,6 +52,13 @@ body, .app {
   border-radius: 50%;
 }
 
+.create-contact-avatar-input input,
+.create-contact-details button{
+  cursor: pointer;
+}
+
+
+
 .create-contact-details input {
   width: 100%;
   padding: 5px 10px;
