@@ -2,15 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class ListContacts extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: ''
+        }
+        this.updateQuery = this.updateQuery.bind(this)
+        this.showAllContacts = this.showAllContacts.bind(this)
+    }
 
-    //Set
+    //Set PropTypes
     static propTypes = {
         listcontacts: PropTypes.array.isRequired,
         onDeleteContact: PropTypes.func.isRequired
-    }
-
-    state = {
-        query: ''
     }
 
     //Update query state after type something in the input field
