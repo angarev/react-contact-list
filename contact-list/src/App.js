@@ -5,25 +5,25 @@ const contacts = [
   {
     "id": "karen",
     "name": "Karen Isgrigg",
-    "handle": "karen_isgrigg",
+    "handle": "@karen_isgrigg",
     "avatarURL": "images/michael.jpg"
   },
   {
     "id": "richard",
     "name": "Richard Kalehoff",
-    "handle": "richardkalehoff",
+    "handle": "@richardkalehoff",
     "avatarURL": "images/ryan.jpg"
   },
   {
     "id": "tyler",
     "name": "Tyler McGinnis",
-    "handle": "tylermcginnis",
+    "handle": "@tylermcginnis",
     "avatarURL": "images/tyler.jpg"
   },
   {
     "id": "pancho",
     "name": "Panayot Angarev",
-    "handle": "pangarev",
+    "handle": "@pangarev",
     "avatarURL": "images/IMG_3269.jpg"
   }
 ];
